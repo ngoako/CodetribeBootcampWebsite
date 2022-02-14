@@ -1,0 +1,403 @@
+/*Home Styling Start*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation-bar Styling Starts*/
+.navbar{
+    background: linear-gradient(to right ,rgb(86, 93, 99),rgba(56, 80, 80, 0.274),rgba(14, 24, 23, 0.322));
+    height: 80px;
+    width: 100%;
+}
+/*creating space around the navigation items*/
+.nav-item {
+	padding-right: 10px;
+    padding: .8rem;
+}
+.nav-link:hover{
+    color: #000000;
+    background: linear-gradient(to right ,rgb(191, 206, 53),rgba(28, 189, 28, 0.274),rgba(16, 145, 4, 0.678));
+}
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar ul .nav-item{
+    display: inline-block;
+    line-height: 40px;
+}
+
+.navbar .nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;  
+}
+/*Navigation-bar Styling Ends*/
+.container-home{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    background: linear-gradient(to bottom ,rgb(236, 240, 188),rgba(203, 235, 130, 0.274),rgba(248, 124, 23, 0.322));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #161008;
+    line-height: 25px;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+#profile{
+    float: right;
+    width:320px; 
+    height:450px;
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+    margin-right:20px;
+    border: 3px solid #85a743;
+    border-radius: 10px;
+}
+
+.container-home p{
+    padding-bottom: 50px; 
+    padding-right: 500px; 
+    padding-left: 50px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #070707;
+    line-height: 25px;
+}
+.title{
+    margin-top: 40px; 
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(81, 148, 81); 
+    font-size: 45px;
+    text-shadow: 5px 5px 5px #656e10;
+    font-weight: bolder;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+button{
+    background-color: #2f9e2f;
+    color: #e3dfe9;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+button:hover{
+    background: linear-gradient(to right ,rgb(219, 216, 30),rgba(30, 145, 30, 0.274),rgba(11, 226, 29, 0.322));
+    color: white;
+}
+@media (max-width: 952){
+    ul{
+        position: fixed;
+        width: 80px;
+        height: 100vh;
+        background: #1c1a40;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: turquoise;
+    }
+}
+/* Footer Styling Start*/
+.social a {
+	font-size: 4.5em;
+	padding: 3rem;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-whatsapp {
+	color: #4AC959;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover{
+	color: #2f9e2f;
+}
+.container-fluid h1{
+    margin-top: 15px; 
+    color: #000000; 
+    text-shadow: 5px 5px 5px #656e10;
+    font-weight: bolder;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 45px; 
+    opacity: 0.9;
+}
+.container-fluid h3{
+    text-align: center; 
+    color: #000000; 
+    font-weight: bolder;
+    font-style: normal; 
+    font-size: 30px; 
+    opacity: 0.7;
+}
+
+
+/* Footer Styling End*/
+html{    
+    background-image: url("assets/images/six.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Home Styling Ends*/
+
+/*About Styling Starts*/
+
+#body-text{
+    padding: 10px;
+    color: #000000;
+    opacity: 0.9;
+}
+#about-heading{
+    font-family: 'Times New Roman', Times, serif; 
+    text-transform: uppercase; 
+    padding-left: 40%;
+    margin-top: 40px;
+    color: #000000;
+    opacity: 0.9;
+    font-size: 45px;
+    text-shadow: 5px 5px 8px rgba(248, 124, 23, 0.322);
+}
+
+#cont{
+    border-top-style: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.container-more{
+    border-style: none; 
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+}
+.container-more p{
+    width: auto; 
+    margin-left: 0px; 
+    padding: 10px 10px; 
+    margin: 0px;
+}
+/*Card on the first row styling*/
+.card{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    background: linear-gradient(to bottom ,rgb(236, 240, 188),rgba(203, 235, 130, 0.274),rgba(248, 124, 23, 0.322));
+    padding: 50px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 15px rgb(231, 241, 85);
+    line-height: 1.5;
+    font-weight: bold;
+}
+/* Two cards on the sceond row styling*/
+.card-one, .card-two{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    background: linear-gradient(to bottom ,rgb(236, 240, 188),rgba(203, 235, 130, 0.274),rgba(248, 124, 23, 0.322));
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(231, 241, 85);
+    line-height: 1.5;
+    font-weight: bold;
+}
+/*Card title styling for all the cards*/
+.card-title h3{
+    padding-top: 5px; 
+    padding-left: 10px; 
+    text-align: center;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px; 
+    opacity: 0.9;
+}
+/*About Styling Ends*/
+
+/*Contact Styling Starts*/
+#contact-heading{
+    font-family: 'Times New Roman', Times, serif; 
+    text-transform: uppercase; 
+    padding-left: 35%;
+    margin-top: 0px;
+    color: #000000; 
+    opacity: 0.9;
+    font-size: 45px;
+    text-shadow: 5px 5px 8px rgba(248, 124, 23, 0.322);
+
+}
+/*The whole contact Section styling Starts*/
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*The whole contact Section styling Ends*/
+.contact .descrip{
+    margin-left: 350px; 
+    background: linear-gradient(rgb(236, 240, 188),rgba(203, 235, 130, 0.274),rgba(248, 124, 23, 0.322));
+    box-shadow: -5px -5px 10px rgba(248, 124, 23, 0.322);
+}
+.descrip p{
+    margin-left: 25px;
+    font-weight: 900; 
+    font-size: 18px; 
+    color: #000000; 
+    line-height: 25px;
+}
+
+.contact .content-contact{
+    max-width: 900px;
+    text-align: center;
+}
+.contact .content-contact h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content-contact p{
+    font-weight: 300;
+    color: #1a1919;
+}
+.content-contact{
+    margin-left: -400px;
+}
+.content-contact p{
+    width: 500px;
+    padding: 2% 2%;
+}
+/*Container inside Content-contact Styling*/
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.container .contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.container .contactInfo .box .text p{
+    display: flex;
+    margin-left: 0px;
+    font-size: 16px;
+    color: #000000;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.container .contactInfo .box .text h3{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif; 
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 9px rgba(248, 124, 23, 0.322);
+    font-size: 35px;
+}
+/*Form Styling starts*/
+.contactForm{
+    width: 100%;
+    padding: 40px;
+    
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #3333;
+    outline: none;
+    resize: none;
+    color: #080808;
+    background: linear-gradient(to right ,rgb(236, 240, 188),rgba(203, 235, 130, 0.274),rgba(248, 124, 23, 0.322));
+}
+/*Form styling Ends*/
+@media(max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}
+/*Contact Styling End*/
